@@ -1,1 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Personal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #0078D7;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #0078D7;
+        }
+
+        ul {
+            list-style-type: square;
+        }
+
+        .contacto a {
+            color: #0078D7;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contacto a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #eaeaea;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tu Nombre Aquí</h1>
+        <p>Bienvenido a mi página personal</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Sobre mí</h2>
+            <p>
+                ¡Hola! Soy una persona apasionada por aprender y crecer profesionalmente. 
+                Me considero responsable, proactivo y con gran interés en mejorar cada día.
+            </p>
+        </section>
+
+        <section>
+            <h2>Habilidades</h2>
+            <ul>
+                <li>Trabajo en equipo</li>
+                <li>Atención al cliente</li>
+            </ul>
+        </section>
+
+        <section class="contacto">
+            <h2>Contacto</h2>
+            <p>Puedes encontrarme en mis redes sociales:</p>
+            <ul>
+                <li><a href="https://facebook.com/pedo2000gg" target="_blank">Facebook</a></li>
+                <li><a href="https://instagram.com/pedo2000gg" target="_blank">Instagram</a></li>
+                <li><a href="https://twitter.com/pedo2000gg" target="_blank">Twitter</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2025 Tu Nombre Aquí - Todos los derechos reservados.
+    </footer>
+</body>
+</html>
 
